@@ -20,13 +20,87 @@
         />
 
     <TextView
-        android:id="@+id/poi_textview"
+        android:id="@+id/poi_nome_etichetta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/poi_imageview"
         android:layout_marginTop="20dp"
-        android:gravity="center_horizontal"
-        android:text="prova prova"
+        android:layout_gravity="center_horizontal"
+        android:text="Nome"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/poi_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poi_nome_etichetta"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/poi_indirizzo_etichetta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poi_nome"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Indirizzo"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/poi_indirizzo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poi_indirizzo_etichetta"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/poi_descrizione_etichetta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poi_indirizzo"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Descrizione"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/poi_descrizione"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poi_descrizione_etichetta"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/poi_checkin_etichetta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poi_descrizione"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal"
+        android:text="N° Checkin"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/poi_checkin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poi_checkin_etichetta"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
         />
 
 </RelativeLayout>

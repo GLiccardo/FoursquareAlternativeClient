@@ -7,6 +7,9 @@ public class FoursquareVenue {
 
     private String name;
     private String city;
+
+    private String address;
+    private String checkin;
     private String category;
 
     public FoursquareVenue() {
@@ -29,12 +32,12 @@ public class FoursquareVenue {
         }
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getCategory() {
@@ -43,6 +46,22 @@ public class FoursquareVenue {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getCheckin() {
+        return checkin;
+    }
+
+    public void setCheckin(String checkin) {
+        this.checkin = checkin;
     }
 
 }

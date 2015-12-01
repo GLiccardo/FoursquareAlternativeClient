@@ -438,8 +438,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             List<String> listTitle = new ArrayList<String>();
 
             for (int i = 0; i < venuesList.size(); i++) {
-                // Creo la lista dei POI make a list of the venus that are loaded in the list.
-                // show the name, the category and the city
+                // Creo la lista dei POI mostrando nome dell'attività e città
                 listTitle.add(i, venuesList.get(i).getName() + "\n" + venuesList.get(i).getCategory() + "\n" + venuesList.get(i).getCity());
             }
 
